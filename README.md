@@ -4,6 +4,8 @@ Services UI Platform is a senior-level front-end platform monorepo for shared Re
 
 The repo is intentionally built like a real platform foundation: package boundaries are explicit, component APIs are documented through Storybook, themes are token-driven, and CI validates the same quality gates maintainers would expect before adoption.
 
+Live docs: https://deandreperry.github.io/services-ui-platform/
+
 ## Why This Exists
 
 Product teams should not rebuild buttons, dialogs, tokens, focus behavior, or release conventions in every app. This platform centralizes those decisions so teams can ship product workflows with consistent interaction quality, accessible defaults, and a shared visual language.
