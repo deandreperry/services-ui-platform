@@ -1,0 +1,15 @@
+{
+  "extends": "@services-ui/tsconfig/react-app.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@services-ui/a11y": ["../../packages/a11y/src/index.ts"],
+      "@services-ui/icons": ["../../packages/icons/src/index.tsx"],
+      "@services-ui/ui": ["../../packages/ui/src/index.ts"],
+      "@services-ui/tokens": ["../../packages/tokens/src/index.ts"],
+      "@services-ui/ui/styles.css": ["../../packages/ui/src/styles.css"],
+      "@services-ui/tokens/themes.css": ["../../packages/tokens/src/themes.css"]
+    }
+  },
+  "include": ["src", "vite.config.ts"]
+}

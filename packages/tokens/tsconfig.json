@@ -1,0 +1,12 @@
+{
+  "extends": "@services-ui/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "lib": ["ES2022"]
+  },
+  "include": ["src"]
+}
