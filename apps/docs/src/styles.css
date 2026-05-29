@@ -37,14 +37,42 @@ input {
 }
 
 .docs-brand__mark {
-  display: inline-grid;
-  place-items: center;
   width: 2.5rem;
   height: 2.5rem;
-  border-radius: var(--sui-radius-lg);
-  background: var(--sui-color-accent);
-  color: var(--sui-color-text-inverse);
-  font-weight: var(--sui-font-weight-bold);
+  flex: 0 0 auto;
+  color: var(--sui-color-accent);
+  filter: drop-shadow(
+    0 0.75rem 1.25rem color-mix(in srgb, var(--sui-color-accent) 24%, transparent)
+  );
+}
+
+.docs-brand__mark-bg {
+  fill: color-mix(in srgb, var(--sui-color-bg-surface) 62%, var(--sui-color-accent) 38%);
+  stroke: color-mix(in srgb, var(--sui-color-accent) 28%, var(--sui-color-border-subtle));
+  stroke-width: 1;
+}
+
+.docs-brand__mark-link {
+  fill: none;
+  stroke: color-mix(in srgb, var(--sui-color-accent) 52%, var(--sui-color-bg-surface));
+  stroke-linecap: round;
+  stroke-width: 2.25;
+}
+
+.docs-brand__mark-node {
+  fill: color-mix(in srgb, var(--sui-color-bg-surface) 88%, white);
+  stroke: color-mix(in srgb, var(--sui-color-accent) 18%, var(--sui-color-border-subtle));
+  stroke-width: 1;
+}
+
+.docs-brand__mark-node--primary {
+  fill: var(--sui-color-accent);
+  stroke: color-mix(in srgb, var(--sui-color-accent) 72%, white);
+}
+
+.docs-brand__mark-node--accent {
+  fill: color-mix(in srgb, var(--sui-color-accent) 70%, var(--sui-color-bg-surface));
+  stroke: color-mix(in srgb, var(--sui-color-accent) 78%, white);
 }
 
 .docs-brand strong,

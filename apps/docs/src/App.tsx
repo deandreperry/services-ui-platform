@@ -41,6 +41,33 @@ function CodeBlock({ children }: { children: ReactNode }) {
   return <pre className="docs-code">{children}</pre>;
 }
 
+function BrandMark() {
+  return (
+    <svg className="docs-brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+      <rect className="docs-brand__mark-bg" x="2" y="2" width="44" height="44" rx="14" />
+      <path className="docs-brand__mark-link" d="M17 18h14M17 30h14M18 17v14M30 17v14" />
+      <rect
+        className="docs-brand__mark-node docs-brand__mark-node--primary"
+        x="11"
+        y="11"
+        width="13"
+        height="13"
+        rx="4"
+      />
+      <rect className="docs-brand__mark-node" x="24" y="11" width="13" height="13" rx="4" />
+      <rect className="docs-brand__mark-node" x="11" y="24" width="13" height="13" rx="4" />
+      <rect
+        className="docs-brand__mark-node docs-brand__mark-node--accent"
+        x="24"
+        y="24"
+        width="13"
+        height="13"
+        rx="4"
+      />
+    </svg>
+  );
+}
+
 function OverviewPage({ onOpenComponents }: { onOpenComponents: () => void }) {
   return (
     <div className="docs-stack">
@@ -342,7 +369,7 @@ export function App() {
     <div className="docs-shell">
       <aside className="docs-sidebar">
         <div className="docs-brand">
-          <span className="docs-brand__mark">SUI</span>
+          <BrandMark />
           <div>
             <strong>Services UI</strong>
             <span>Platform docs</span>
