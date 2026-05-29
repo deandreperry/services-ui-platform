@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "A production-minded front-end platform monorepo for shared React UI infrastructure.",
+  "type": "module",
   "packageManager": "pnpm@9.15.4",
   "engines": {
     "node": ">=20.11.0",
@@ -29,6 +30,7 @@
     "@storybook/addon-a11y": "^8.4.7",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",

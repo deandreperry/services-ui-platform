@@ -41,5 +41,11 @@ function ModalExample() {
 }
 
 export const Default: Story = {
+  args: {
+    open: false,
+    onOpenChange: () => undefined,
+    title: "Invite teammate",
+    children: null
+  },
   render: () => <ModalExample />
 };

@@ -8,7 +8,8 @@ const meta = {
   component: Tooltip,
   tags: ["autodocs"],
   args: {
-    content: "Shareable links expire after 14 days."
+    content: "Shareable links expire after 14 days.",
+    children: <Button variant="secondary">Copy link</Button>
   }
 } satisfies Meta<typeof Tooltip>;
 
@@ -18,7 +19,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   render: (args) => (
     <Tooltip {...args}>
-      <Button variant="secondary">Copy link</Button>
+      {args.children}
     </Tooltip>
   )
 };

@@ -1,6 +1,6 @@
 import react from "@vitejs/plugin-react";
 import { fileURLToPath } from "node:url";
-import { defineConfig } from "vite";
+import { defineConfig } from "vitest/config";
 
 const resolveWorkspacePath = (path: string) => fileURLToPath(new URL(path, import.meta.url));
 

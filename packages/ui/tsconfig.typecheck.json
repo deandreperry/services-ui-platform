@@ -12,5 +12,5 @@
       "@services-ui/tokens/themes.css": ["../tokens/src/themes.css"]
     }
   },
-  "include": ["src", ".storybook", "vite.config.ts", "vitest.setup.ts"]
+  "include": ["src", ".storybook", "vitest.setup.ts"]
 }

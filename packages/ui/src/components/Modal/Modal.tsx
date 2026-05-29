@@ -64,6 +64,7 @@ export function Modal({
   return createPortal(
     <div
       className="sui-modal__overlay"
+      role="presentation"
       onMouseDown={(event) => {
         if (closeOnOverlayClick && event.target === event.currentTarget) {
           onOpenChange(false);
