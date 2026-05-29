@@ -8,6 +8,74 @@ The repo is intentionally built like a real platform foundation: package boundar
 
 Product teams should not rebuild buttons, dialogs, tokens, focus behavior, or release conventions in every app. This platform centralizes those decisions so teams can ship product workflows with consistent interaction quality, accessible defaults, and a shared visual language.
 
+## Tech Stack
+
+### Monorepo & Tooling
+
+* PNPM Workspaces
+* Turborepo
+* TypeScript
+* Changesets
+* GitHub Actions
+
+### Frontend Development
+
+* React
+* Vite
+* TypeScript
+* CSS Variables
+* CSS Modules
+
+### Design System Infrastructure
+
+* Design Tokens
+* Light & Dark Themes
+* Semantic Token Architecture
+* Component API Standards
+* Responsive Design Patterns
+
+### Documentation & Developer Experience
+
+* Storybook
+* Internal Documentation Site
+* Component Usage Examples
+* Architecture Guides
+* Contribution Standards
+
+### Quality & Testing
+
+* Vitest
+* React Testing Library
+* ESLint
+* Prettier
+* Type Checking
+* Automated CI Validation
+
+### Accessibility
+
+* WCAG-Oriented Component Design
+* Keyboard Navigation
+* Focus Management
+* ARIA Patterns
+* Screen Reader Support
+
+## Professional Focus
+
+This repository showcases front-end platform engineering practices commonly used by large-scale product organizations. The architecture emphasizes reusable UI infrastructure, shared design systems, scalable component APIs, accessibility-first development, automated quality controls, and developer experience.
+
+Areas demonstrated include:
+
+* Design System Engineering
+* Component Library Development
+* Design Token Architecture
+* Accessibility Engineering
+* Frontend Platform Development
+* Shared Package Management
+* Developer Experience (DX)
+* CI/CD Workflows
+* Documentation Systems
+* Frontend Architecture
+
 ## Architecture
 
 ```txt
